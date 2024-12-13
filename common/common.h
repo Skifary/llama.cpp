@@ -10,6 +10,7 @@
 
 #ifdef _WIN32
 #define DIRECTORY_SEPARATOR '\\'
+#include <algorithm>
 #else
 #define DIRECTORY_SEPARATOR '/'
 #endif // _WIN32
