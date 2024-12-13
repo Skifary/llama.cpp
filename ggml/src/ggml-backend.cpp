@@ -6,6 +6,7 @@
 #   define NOMINMAX
 #endif
 #include <windows.h>
+#include <algorithm> 
 #endif
 
 #include "ggml-backend.h"
